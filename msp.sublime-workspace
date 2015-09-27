@@ -60,8 +60,7 @@
 			"settings":
 			{
 				"buffer_size": 570,
-				"line_ending": "Unix",
-				"name": "import serial"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -95,8 +94,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/inno/Source/msp"
+	],
 	"file_history":
 	[
+		"/home/inno/Source/msp/msp.py",
 		"/home/inno/Source/Cleanflight/src/main/common/printf.c",
 		"/home/inno/Source/Cleanflight/src/main/config/config.c",
 		"/home/inno/Source/Cleanflight/src/main/target/NAZE/target.h",
@@ -296,7 +300,7 @@
 				{
 					"buffer": 0,
 					"file": "msp.py",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 570,
@@ -306,13 +310,12 @@
 						"selection":
 						[
 							[
-								463,
-								463
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "import serial",
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -413,7 +416,7 @@
 		[
 			[
 				"",
-				"~/Source/Cleanflight-Configurator.sublime-project"
+				"~/Source/cleanflight-configurator/cleanflight-configurator.sublime-workspace"
 			],
 			[
 				"MSP",
@@ -439,7 +442,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 255.0,
+	"side_bar_width": 249.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

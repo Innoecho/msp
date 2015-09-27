@@ -1,7 +1,7 @@
 import serial
 
 def openSerial():
-	ser=serial.Serial('/dev/ttyUSB0',115200)
+	ser=serial.Serial('/dev/ttyUSB1',115200)
 	return ser
 
 def mspRequest(ser,c):
@@ -28,5 +28,26 @@ def mspRequest(ser,c):
 	else:
 		return 0
 
+def serial16_int16(low,high):
+	if(ord(high)>=128):
+		return -((ord(high)^255)*256+(ord(low)-1)^255)
+	else:
+		return ord(high)*256+ord(low)
+
+def requestRawImu(ser):
+	RawImu=[]
+	str=mspRequest(ser,102)
+	if(str):
+		for i in range(9):
+			if(i<3):
+				# m/s/s
+				RawImu.append(serial16_int16(str[i*2],str[i*2+1])/512.0*9.80665)
+			else:
+				if(i<6):
+					# deg/s
+					RawImu.append(serial16_int16(str[i*2],str[i*2+1])*(1/16.4))
+				else:
+					RawImu.append(serial16_int16(str[i*2],str[i*2+1])/1090.0)
+	return RawImu
 
 
