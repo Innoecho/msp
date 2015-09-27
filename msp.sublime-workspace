@@ -1,0 +1,447 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"currer",
+				"currentPort"
+			],
+			[
+				"LEd2",
+				"LED2_ON"
+			],
+			[
+				"LED1",
+				"LED1_ON"
+			],
+			[
+				"LED0",
+				"LED0_ON"
+			],
+			[
+				"LEd",
+				"LED0_OFF"
+			],
+			[
+				"N",
+				"NAZE"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"S",
+				"STM32F303"
+			],
+			[
+				"Stm",
+				"STM32F303xC"
+			],
+			[
+				"Defi",
+				"defined"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"idef",
+				"ifdef"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "msp.py",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix",
+				"name": "import serial"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/inno/Source/Cleanflight/src/main/common/printf.c",
+		"/home/inno/Source/Cleanflight/src/main/config/config.c",
+		"/home/inno/Source/Cleanflight/src/main/target/NAZE/target.h",
+		"/home/inno/Source/Cleanflight/src/main/sensors/initialisation.c",
+		"/home/inno/Source/Cleanflight/src/main/mw.c",
+		"/home/inno/Source/Cleanflight/src/main/io/serial_msp.c",
+		"/home/inno/Source/Cleanflight/src/main/drivers/light_led.h",
+		"/home/inno/Source/Cleanflight/src/main/drivers/light_led_stm32f10x.c",
+		"/home/inno/Source/Cleanflight/src/test/unit/platform.h",
+		"/home/inno/Source/Cleanflight/src/main/target/NAZE/hardware_revision.h",
+		"/home/inno/Source/Cleanflight/src/main/target/NAZE/hardware_revision.c",
+		"/home/inno/Source/Cleanflight/src/main/io/serial_cli.c",
+		"/home/inno/Source/Cleanflight/src/main/io/serial.c",
+		"/home/inno/Source/Cleanflight/src/main/drivers/system.c",
+		"/home/inno/Source/Cleanflight/src/main/drivers/system_stm32f10x.c",
+		"/home/inno/Source/Cleanflight/src/main/io/serial_msp.h",
+		"/home/inno/Source/Cleanflight/support/stmloader/serial.h",
+		"/home/inno/Source/Cleanflight/src/main/io/serial.h",
+		"/home/inno/Source/Cleanflight/src/main/drivers/serial.h",
+		"/home/inno/Source/Cleanflight/src/main/common/printf.h",
+		"/home/inno/Source/Cleanflight/src/main/drivers/serial.c",
+		"/home/inno/Source/Cleanflight/src/main/build_config.h",
+		"/home/inno/Source/Cleanflight/src/main/sensors/gyro.c",
+		"/home/inno/Source/Cleanflight/src/main/sensors/acceleration.c",
+		"/home/inno/Source/Cleanflight/src/main/config/config_profile.h",
+		"/home/inno/Source/Cleanflight/docs/Cli.md",
+		"/home/inno/Source/Cleanflight.sublime-project"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+			"/home/inno/Source/Cleanflight/src",
+			"src",
+			"\\src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mspRequest",
+			"FC_VERSION_MINOR",
+			"INBUF_SIZE",
+			"headSerialReply",
+			"serialize8",
+			"tailSerialReply",
+			"processOutCommand",
+			"API_VERSION_MINOR",
+			"API_VERSION_MAJOR",
+			"MSP_PROTOCOL_VERSION",
+			"API_VERSION_LENGTH",
+			"headSerialReply",
+			"MSP_API_VERSION",
+			"INBUF_SIZE",
+			"c_state",
+			"inBuf",
+			"c_state",
+			"cmdMSP",
+			"c_state",
+			"checksum",
+			"c_state",
+			"offset",
+			"c_state",
+			"dataSize",
+			"processInCommand",
+			"BOARD_HAS_VOLTAGE_DIVIDER",
+			"USE_HARDWARE_REVISION_DETECTION",
+			"TARGET_BOARD_IDENTIFIER",
+			"LED0",
+			"dalay",
+			"dealy",
+			"LED0_OFF",
+			"LED",
+			"loop",
+			"processLoopback",
+			"NAZE",
+			"CJMCU",
+			"SPRACINGF3",
+			"USE_OLED_GPS_DEBUG_PAGE_ONLY",
+			"DISPLAY",
+			"BLACKBOX",
+			"USE_FLASHFS",
+			"LED_STRIP",
+			"GPS",
+			"DISPLAY",
+			"USE_ADC",
+			"USE_I2C",
+			"USE_USART2",
+			"USE_SERVOS",
+			"BEEPER_INVERTED",
+			"SPRACINGF3",
+			"USE_SOFTSERIAL2",
+			"SONAR",
+			"NAZE32_REV5",
+			"NAZE32",
+			"hardwareRevision",
+			"INVERTER",
+			"USE_SPI",
+			"USE_HARDWARE_REVISION_DETECTION",
+			"SPEKTRUM_BIND",
+			"BEEPER_INVERTED",
+			"INVERTER",
+			"BEEPER_INVERTED",
+			"BEEPER",
+			"NAZE",
+			"SOFTSERIAL_LOOPBACK",
+			"define SOFTSERIAL_LOOPBACK",
+			"USE_HARDWARE_REVISION_DETECTION",
+			"STM32F303",
+			"SOFTSERIAL_LOOPBACK",
+			"USE_HARDWARE_REVISION_DETECTION",
+			"STM32F303xC",
+			"USE_HARDWARE_REVISION_DETECTION",
+			"SPEKTRUM_BIND",
+			"STM32F10X",
+			"SPEKTRUM_BIND",
+			"USE_HARDWARE_REVISION_DETECTION",
+			"STM32F303xC",
+			"STM32F303",
+			"systemReset",
+			"systemResetToBootloader",
+			"systemReset",
+			"systemResetToBootloader",
+			"Mine",
+			"serialConfig->reboot_character",
+			"serialConfig",
+			"cliEnter",
+			"reboot",
+			"STM32F303xC",
+			"main",
+			"STM32F303",
+			"STM32F10X",
+			"STM32F303xC",
+			"currentTime",
+			"loop",
+			"cliProcess",
+			"evaluateOtherData",
+			"cliEnter",
+			"mspPorts",
+			"define STM32F10X",
+			"STM32F10X",
+			"currentPort",
+			"mspPorts",
+			"serialPortFunction_e",
+			"findSerialPortConfig",
+			"mspAllocateSerialPorts",
+			"mspPort_t",
+			"mspInit",
+			"cliEnter",
+			"setCurrentPort",
+			"mspSerialPort",
+			"evaluateOtherData",
+			"cliEnter",
+			"cliPort",
+			"setPrintfSerialPort",
+			"printfSerialPort",
+			"SystemCoreClock",
+			"printf",
+			"print",
+			"stdout_putf",
+			"init_printf",
+			"init_print",
+			"putc",
+			"__CC_ARM",
+			"REQUIRE_PRINTF_LONG_SUPPORT",
+			"__CC_ARM",
+			"REQUIRE_CC_ARM_PRINTF_SUPPORT",
+			"__CC_ARM"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "msp.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import serial",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "msp.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mw",
+				"src/main/mw.c"
+			],
+			[
+				"serial_msp",
+				"src/main/io/serial_msp.h"
+			],
+			[
+				"serial.h",
+				"support/stmloader/serial.h"
+			],
+			[
+				"printf",
+				"src/main/common/printf.c"
+			],
+			[
+				"serial_cli",
+				"src/main/io/serial_cli.c"
+			],
+			[
+				"serial_m",
+				"src/main/io/serial_msp.h"
+			],
+			[
+				"print",
+				"src/main/common/printf.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Source/Cleanflight-Configurator.sublime-project"
+			],
+			[
+				"MSP",
+				"~/Source/Pixhawk/Firmware.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
